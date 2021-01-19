@@ -90,13 +90,13 @@ def adding_matz
      }
 
 
-#programmer_hash.store( :yukihiro_matsumoto, {
-  #:known_for => "Ruby", :languages => ["LISP", "C"] })
+programmer_hash.store( :yukihiro_matsumoto, {
+  :known_for => "Ruby", :languages => ["LISP", "C"] })
 
 #programmer_hash = Hash[:yukihiro_matsumoto => {
   #:known_for => "Ruby", :languages => ["LISP", "C"] }]
  #programmer_hash.merge!(tuna)
-puts programmer_hash
+programmer_hash
 
 
 end
